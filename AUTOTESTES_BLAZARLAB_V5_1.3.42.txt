@@ -1,0 +1,11 @@
+BlazarLab V5 — autotestes 1.3.42
+
+JavaScript: node --check blazarlab.js — PASSOU
+Testes Node em tests/*.cjs: 28/28 PASSARAM
+CSS: 1.228 regras de topo; zero erros de parse e zero erros de declaração
+SVGs: 45 arquivos válidos em XML
+Referências CSS de assets: 42 caminhos únicos; zero ausentes
+Referências em index.html, blazarlab.js e styles.css: zero assets ausentes
+Teste específico gold-theme-coherence.cjs: PASSOU
+
+Escopo da validação: automação estática/Node. A execução de Chromium/headless retornou ERR_BLOCKED_BY_ADMINISTRATOR; não é reportada como teste visual concluído. Não foram testados aparelhos físicos.
